@@ -3,4 +3,4 @@
 
 config BOARD_CUSTOM_PLANK
 	bool "Custom Plank Board"
-	depends on SOC_NRF5340_QIAA
+	depends on SOC_NRF5340_CPUNET_QKAA
