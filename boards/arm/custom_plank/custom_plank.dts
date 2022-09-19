@@ -4,7 +4,7 @@
  */
 
 /dts-v1/;
-#include <nordic/nrf52840_qiaa.dtsi>
+#include <nordic/nrf5340_qiaa.dtsi>
 
 / {
 	model = "Custom Plank Board";
