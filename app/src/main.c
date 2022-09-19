@@ -6,7 +6,10 @@
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/sensor.h>
 #include <zephyr/ipc/ipc_service.h>
+#include <zephyr/ipc/ipc_service_backend.h>
 #include <zephyr/ipc/ipc_rpmsg.h>
+#include <zephyr/ipc/rpmsg_service.h>
+#include <zephyr/ipc/ipc_static_vrings.h>
 
 #include "app_version.h"
 
