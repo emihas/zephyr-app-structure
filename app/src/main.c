@@ -18,7 +18,7 @@ void main(void)
 
 	printk("Zephyr Example Application %s\n", APP_VERSION_STR);
 
-	sensor = DEVICE_DT_GET(DT_NODELABEL(examplesensor0));
+	/*sensor = DEVICE_DT_GET(DT_NODELABEL(examplesensor0));
 	if (!device_is_ready(sensor)) {
 		LOG_ERR("Sensor not ready");
 		return;
@@ -42,6 +42,6 @@ void main(void)
 		printk("Sensor value: %d\n", val.val1);
 
 		k_sleep(K_MSEC(1000));
-	}
+	}*/
 }
 
